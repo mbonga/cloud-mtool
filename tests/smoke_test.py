@@ -1,5 +1,5 @@
 """Simple smoke test to verify imports and singleton behavior without network calls."""
-from cmdb_clients import CMDB, VALI, JIRA, Config, Logger
+from one_clients import CMDB, VALI, JIRA, Config, Logger
 
 
 def test_singleton_instances():

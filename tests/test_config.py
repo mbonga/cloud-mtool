@@ -2,7 +2,7 @@ import os
 import tempfile
 import unittest
 
-from cmdb_clients import Config
+from one_clients import Config
 
 
 class TestConfigParsing(unittest.TestCase):

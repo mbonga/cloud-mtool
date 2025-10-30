@@ -5,7 +5,7 @@ calls. It is safe to run locally and shows how to wire `Config` and `Logger`.
 """
 import argparse
 
-from cmdb_clients import CMDB, VALI, JIRA, Config, Logger
+from one_clients import CMDB, VALI, JIRA, Config, Logger
 
 
 def main() -> None:

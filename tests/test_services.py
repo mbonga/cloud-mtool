@@ -2,7 +2,7 @@ import os
 import unittest
 from unittest.mock import Mock, patch
 
-from cmdb_clients import CMDB, VALI, JIRA, Config, Logger
+from one_clients import CMDB, VALI, JIRA, Config, Logger
 
 
 class TestServices(unittest.TestCase):

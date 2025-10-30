@@ -1,4 +1,4 @@
-"""cmdb_clients package
+"""one_clients package
 
 Exports singletons: CMDB, VALI, JIRA, Config, Logger
 """
