@@ -20,6 +20,16 @@ You can set config values from the CLI and dump current config:
 PYTHONPATH=. python3 main.py --set CMDB_URL=https://cmdb.example.com --dump-config
 ```
 
+## Package name and compatibility
+
+The canonical package name is now `one_clients`. An import shim remains at
+`cmdb_clients` for backwards compatibility but is deprecated and emits a
+DeprecationWarning. Prefer importing from `one_clients`:
+
+```py
+from one_clients import CMDB, Config, Logger
+```
+
 ## Tests / CI
 
 Unit tests use the standard library `unittest` and mock `requests` so they don't
